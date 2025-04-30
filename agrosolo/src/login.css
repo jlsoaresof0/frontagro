@@ -1,0 +1,94 @@
+/* Estilos para o login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .mensagem {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .botao-cadastro {
+    margin-top: 15px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para o cadastro */
+  .cadastro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .cadastro-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .mensagem {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .botao-voltar {
+    margin-top: 15px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+  }
+  

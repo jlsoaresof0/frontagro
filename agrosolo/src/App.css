@@ -1,0 +1,23 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white; /* Fundo branco da página */
+}
+
+.app-container {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+  width: 100%;
+  background-color: white; /* Fundo branco da área ao lado da sidebar */
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+}

@@ -1,0 +1,56 @@
+/* App.css */
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #45a049;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.login-form h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+}
+
+.mensagem {
+  margin-top: 1rem;
+  text-align: center;
+  color: red;
+}
