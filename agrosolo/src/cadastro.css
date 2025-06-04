@@ -1,55 +1,70 @@
-html, body, #root {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-  }
-  
-  .cadastro-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-  
-  .cadastro-form {
-    background: white;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-  }
-  
-  .cadastro-form h2 {
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-  
-  .cadastro-form input {
-    width: 100%;
-    padding: 0.7rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .cadastro-form button {
-    width: 100%;
-    padding: 0.7rem;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .cadastro-form button:hover {
-    background-color: #4CAF50;
-  }
-  
-  .mensagem {
-    margin-top: 1rem;
-    text-align: center;
-    color: green;
-  }
-  
+.cadastro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f3f4f6;
+  flex-direction: column;
+}
+
+.logo-agro {
+  width: 160px;
+  margin-bottom: 1.5rem;
+}
+
+.cadastro-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 370px;
+  text-align: center;
+}
+
+.cadastro-form h2 {
+  margin-bottom: 1.5rem;
+  color: #16a34a;
+}
+
+.cadastro-form input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.cadastro-form button {
+  width: 100%;
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cadastro-form button:hover {
+  background: #15803d;
+}
+
+.mensagem {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+.botao-voltar {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: #3b82f6;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.botao-voltar:hover {
+  text-decoration: underline;
+}

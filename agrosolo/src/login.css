@@ -1,94 +1,82 @@
-/* Estilos para o login */
 .login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .login-form {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-  }
-  
-  input {
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  
-  button {
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  .mensagem {
-    color: red;
-    margin-top: 10px;
-    text-align: center;
-  }
-  
-  .botao-cadastro {
-    margin-top: 15px;
-    text-align: center;
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  /* Estilos para o cadastro */
-  .cadastro-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .cadastro-form {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-  }
-  
-  input {
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  
-  button {
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  .mensagem {
-    color: red;
-    margin-top: 10px;
-    text-align: center;
-  }
-  
-  .botao-voltar {
-    margin-top: 15px;
-    text-align: center;
-    color: #007bff;
-    text-decoration: none;
-  }
-  
+  display: flex;
+  flex-direction: column; /* empilha logo e form verticalmente */
+  justify-content: center;
+  align-items: center;    /* centraliza horizontalmente */
+  height: 100vh;
+  background: #f3f4f6;
+  padding: 1rem;
+}
+
+.logo-agro {
+  width: 100px;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.login-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 1.5rem;
+  color: #16a34a;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.login-form button {
+  width: 100%;
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+  background: #15803d;
+}
+
+.link-esqueci-senha {
+  color: #3b82f6;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.link-esqueci-senha:hover {
+  text-decoration: underline;
+}
+
+.mensagem {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+.botao-cadastro {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: #3b82f6;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.botao-cadastro:hover {
+  text-decoration: underline;
+}

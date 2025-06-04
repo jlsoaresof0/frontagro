@@ -1,17 +1,27 @@
 import React from 'react';
-import './Sidebar.css'; // Criar um arquivo CSS para estilizar o Sidebar
 
 const Sidebar = () => {
+  const menuItems = [
+    'Fazendas',
+    'Amostras de Solo',
+    'Análises',
+    'Relatórios',
+    'Produtos Agrícolas',
+    'Créditos',
+  ];
+
   return (
-    <div className="sidebar">
-      <h2>Menu</h2>
-      <ul>
-        <li><a href="#cadastrar-fazenda">Cadastrar Fazenda</a></li>
-        <li><a href="#gerenciar-compras">Gerenciar Compras</a></li>
-        <li><a href="#cadastrar-produtos">Cadastrar Produtos</a></li>
-        <li><a href="#analises-solo">Análises de Solo</a></li>
-      </ul>
-    </div>
+    <aside className="w-64 bg-green-800 text-white h-full p-6 flex flex-col">
+      <h2 className="text-2xl font-bold mb-8">🌱 Agrinfo</h2>
+      {menuItems.map((item, index) => (
+        <button
+          key={index}
+          className="text-left px-4 py-2 mb-2 rounded hover:bg-green-700 transition"
+        >
+          {item}
+        </button>
+      ))}
+    </aside>
   );
 };
 
